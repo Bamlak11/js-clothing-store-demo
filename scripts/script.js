@@ -1,6 +1,6 @@
 // Task 1: Implement a function that calculates total sales
 
-function totalSales(sales){
+function calculateTotalSales(sales){
     let total = 0;
     for (const sale of sales){
         total += sale.amount;
